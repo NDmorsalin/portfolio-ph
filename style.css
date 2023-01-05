@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+:root {
+  --primary: #fd6e0a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  list-style: none;
+}
+.primary {
+  color: var(--primary);
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 20px;
+  padding: 18px 36px;
+  border-radius: 5px;
+}
+
+.btn__outline {
+  border: 1px solid #fd6e0a;
+  background-color: transparent;
+  color: #fd6e0a;
+}
+.btn__primary {
+  background-color: var(--primary);
+  color: #fff;
+}
+.section {
+  width: 80%;
+  margin: 8rem auto;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+  text-align: center;
+}
+.section-description {
+  color: #757575;
+  font-size: 18px;
+  margin: 2rem;
+}
+/* header section */
+.hero {
+  background-color: #fff8f3;
+  background-image: url("./images/developer.png"), url("./images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom left, bottom right;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 3rem;
+}
+.logo {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.nav-container {
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+}
+/* banner container */
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-top: 3rem;
+}
+
+.banner-subtitle {
+  color: #474747;
+  font-weight: 600;
+  font-size: 45px;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 85px;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+.banner-description {
+  font-size: 18px;
+  color: #757575;
+}
+
+.banner-button-container {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+/* about section */
+
+.about {
+  background: #fff8f3;
+  border-radius: 10px;
+  padding: 8rem 9rem;
+  text-align: center;
+}
+
+.basic-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.info-title {
+  font-size: 20px;
+  color: #757575;
+}
+.info {
+  color: #474747;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* /whatIdo */
+
+.whatIdo {
+  text-align: center;
+}
+.work-field-container {
+  display: flex;
+  gap: 1.5rem;
+  text-align-last: left;
+}
+.field-item {
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 2rem;
+}
+.field-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+}
+.field-description {
+  color: #757575;
+  text-align-last: left;
+  font-size: 16px;
+}
+
+/* summary */
+
+.summary-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.summary-title {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+
+.summary-item-title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+}
+
+.summary-institute {
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.summary-container hr {
+  margin: 2rem 0;
+  border-color: #d1d1d1;
+}
+
+.summary-description {
+  color: #757575;
+}
+
+.cvbtn {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff8f3;
+  padding: 5rem 10%;
+  gap: 5rem;
+}
+.footer-description {
+  color: #474747;
+  margin-top: 20px;
+  margin-bottom: 2rem;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+}
+
+input:not(input[type="submit"]),textarea {
+  border: none;
+  background: #ffffff;
+  border-radius: 5px;
+  display: block;
+  width: 80%;
+  padding: 1rem;
+}
+input[type="submit"]{
+  width: fit-content;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 18px 36px;
+  border-radius: 5px;
+  background-color: var(--primary);
+  color: #fff;
+  border: none;
+}
+.contact,
+.message {
+  width: 45%;
+}
+form{
+  margin-top: 1.8rem;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1.5rem;
+}
+
+.social{
+  display: flex;
+  gap: 1rem;
+}
+.social-icon{
+  font-size: 2rem;
+  color: var(--primary);
+}
